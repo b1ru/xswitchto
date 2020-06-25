@@ -1,5 +1,5 @@
 # xswitchto
-* This only works for systems that are using the **X window system**. (most linux distributions and *BSD systems).
+* This only works for systems that are using the **X window system** (most linux distributions and *BSD systems).
 
 ## What
 ``xswitchto firefox`` switches to firefox. 
