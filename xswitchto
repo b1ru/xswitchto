@@ -1,0 +1,33 @@
+#!/bin/sh
+WINDOW=$1
+WINDOWS=$(wmctrl -xl | awk '{print $3}' | cut -d'.' -f 2 | awk '{print tolower($0)}')
+IDS=$(wmctrl -lx | awk '{print $1}')
+
+i=0
+EXISTS=FALSE
+for window in $WINDOWS
+do
+	if [ $window = $WINDOW ]
+	then
+		EXISTS=TRUE
+		break
+	fi	
+	i=$((i+1))
+done
+
+if [ $EXISTS = FALSE ]
+then
+	$WINDOW&
+	exit 0
+fi
+
+j=0
+for id in $IDS
+do
+	if [ $i -eq $j ]
+	then
+		wmctrl -ia $id
+	fi
+	j=$((j+1))
+done
+	
