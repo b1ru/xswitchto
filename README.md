@@ -4,9 +4,8 @@
 ## What
 ``xswitchto firefox`` switches to firefox. 
 * Focus and raise firefox if you already had it opened, or  open a new firefox window if you had not.
-* If many instances of firefox are open, cycle through them.
 
-Of course you can replace firefox with any application you like.
+Replace firefox with any application you like.
 
 ## How
 ... does it find windows?
