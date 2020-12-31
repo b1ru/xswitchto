@@ -7,7 +7,7 @@ i=0
 EXISTS=FALSE
 for window in $WINDOWS
 do
-	if [ $window = $WINDOW ]
+	if echo $window | grep $WINDOW
 	then
 		EXISTS=TRUE
 		break
