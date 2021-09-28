@@ -4,6 +4,7 @@
 ``xswitchto firefox`` switches to firefox. 
 * Raise and focus firefox if you already had it opened, or  open a new firefox window if you had not.
 * If you have many firefox windows open, cycle through them.
+* Restrict this behavior to a specific workspace, if you want.
  
 Replace firefox with any application you like.
 
