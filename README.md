@@ -13,7 +13,7 @@ This program works with any [EWMH compliant window manager](https://en.wikipedia
 
 * xdotool
 * wmctrl
-
+* (optional) [xlabel](https://github.com/b1ru/xlabel)
 ## How
 ... does it find windows?
 * It uses the class of a window.
