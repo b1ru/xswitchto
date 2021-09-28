@@ -1,11 +1,17 @@
 # xswitchto
-* This only works for systems that are using the **X window system**.
 
 ## What
 ``xswitchto firefox`` switches to firefox. 
-* Focus and raise firefox if you already had it opened, or  open a new firefox window if you had not.
-
+* Raise and focus firefox if you already had it opened, or  open a new firefox window if you had not.
+* If you have many firefox windows open, cycle through them.
+ 
 Replace firefox with any application you like.
+
+## Dependencies
+This program works with any [EWMH compliant window manager](https://en.wikipedia.org/wiki/Extended_Window_Manager_Hints#List_of_window_managers_that_support_Extended_Window_Manager_Hints).
+
+* xdotool
+* wmctrl
 
 ## How
 ... does it find windows?
